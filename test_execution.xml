@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<executions>
+    
+        <execution>
+            <executionId>7196add3-edc3-4451-8223-5fbd421f2655</executionId>
+            <cycleName>Testing site</cycleName>
+            <folderName></folderName>
+            <issueKey>PIN-9</issueKey>
+            <testSummary>Crearea unui cont nou</testSummary>
+            <project>Pinzaru Daria TMTA22</project>
+            <versions>Testing Bebe Tei</versions>
+            <components></components>
+            <priority>Highest</priority>
+            <executedBy>IT Factory</executedBy>
+            <executedOn> 08-07-2024 21:56:07</executedOn>
+            <executedStatus>FAIL</executedStatus>
+            <executionDefects></executionDefects>
+            <creationDate>08-07-2024 19:27:14</creationDate>
+            <assignedTo></assignedTo>
+            <customFields></customFields>
+            <workFlowStatus></workFlowStatus>
+            <plannedExecutionTime></plannedExecutionTime>
+            
+                <teststeps>
+                
+                    <teststep>
+                        <stepId>2cf0b07c-4fc9-49fa-93d6-5a9d575aff72</stepId>
+                        <orderId>1</orderId>
+                        <step>Se acceseaza site-ul https://comenzi.bebetei.ro/</step>
+                        <data>N/A</data>
+                        <result>Se dechide site-ul web https://comenzi.bebetei.ro/</result>
+                        <stepStatus>UNEXECUTED</stepStatus>
+                        <stepComment></stepComment>
+                        <stepCustomFields></stepCustomFields>
+                    </teststep>
+                
+                    <teststep>
+                        <stepId>dd981b06-9bf9-4583-a14f-8f7c4819bde7</stepId>
+                        <orderId>2</orderId>
+                        <step>Se apasa butonul &quot;Contul meu&quot;</step>
+                        <data>N/A</data>
+                        <result>Se deschide pagina de login.</result>
+                        <stepStatus>UNEXECUTED</stepStatus>
+                        <stepComment></stepComment>
+                        <stepCustomFields></stepCustomFields>
+                    </teststep>
+                
+                    <teststep>
+                        <stepId>60211481-db85-41c2-8e62-1bb4bfb1b2d2</stepId>
+                        <orderId>3</orderId>
+                        <step>Este introdusa adresa de mail si apasat &quot;Continua&quot;.</step>
+                        <data>N/A</data>
+                        <result>Se deschide pagina in care vor trebui introduse informatiile aditionale.</result>
+                        <stepStatus>UNEXECUTED</stepStatus>
+                        <stepComment></stepComment>
+                        <stepCustomFields></stepCustomFields>
+                    </teststep>
+                
+                    <teststep>
+                        <stepId>18c83f60-9340-4d0e-8f0d-23d182c2ad01</stepId>
+                        <orderId>4</orderId>
+                        <step>Se introduc informatiile si se apasa butonul &quot;Creare cont&quot;</step>
+                        <data>N/A</data>
+                        <result>Este afisat pe ecranul utilizatorului mesajul “Contul dumneavoastră a fost creat cu succes! Pentru a vă conecta, vă rugăm să accesați link-ul primit pe email-ul introdus în primul pas.”</result>
+                        <stepStatus>UNEXECUTED</stepStatus>
+                        <stepComment></stepComment>
+                        <stepCustomFields></stepCustomFields>
+                    </teststep>
+                
+                </teststeps>
+            
+        </execution>
+    
+        <execution>
+            <executionId>5e067219-4078-4597-a3fe-df4d89c593c3</executionId>
+            <cycleName>Testing site</cycleName>
+            <folderName></folderName>
+            <issueKey>PIN-10</issueKey>
+            <testSummary>Adaugarea in cos</testSummary>
+            <project>Pinzaru Daria TMTA22</project>
+            <versions>Testing Bebe Tei</versions>
+            <components></components>
+            <priority>Medium</priority>
+            <executedBy>IT Factory</executedBy>
+            <executedOn> 08-07-2024 19:30:18</executedOn>
+            <executedStatus>PASS</executedStatus>
+            <executionDefects></executionDefects>
+            <creationDate>08-07-2024 19:28:50</creationDate>
+            <assignedTo></assignedTo>
+            <customFields></customFields>
+            <workFlowStatus></workFlowStatus>
+            <plannedExecutionTime></plannedExecutionTime>
+            
+        </execution>
+    
+        <execution>
+            <executionId>22ea95a6-62f5-4694-bb66-275d9d8b1bc9</executionId>
+            <cycleName>Ad hoc</cycleName>
+            <folderName></folderName>
+            <issueKey>PIN-11</issueKey>
+            <testSummary>Cautarea unui produs</testSummary>
+            <project>Pinzaru Daria TMTA22</project>
+            <versions>Unscheduled</versions>
+            <components></components>
+            <priority>Highest</priority>
+            <executedBy>IT Factory</executedBy>
+            <executedOn> 08-07-2024 18:11:22</executedOn>
+            <executedStatus>PASS</executedStatus>
+            <executionDefects></executionDefects>
+            <creationDate>08-07-2024 18:10:36</creationDate>
+            <assignedTo></assignedTo>
+            <customFields></customFields>
+            <workFlowStatus></workFlowStatus>
+            <plannedExecutionTime></plannedExecutionTime>
+            
+                <teststeps>
+                
+                    <teststep>
+                        <stepId>7f34c889-c01c-48d4-9462-effe714984e2</stepId>
+                        <orderId>1</orderId>
+                        <step>Se acceseaza site-ul https://comenzi.bebetei.ro/</step>
+                        <data>N/a</data>
+                        <result>Se deschide pagina https://comenzi.bebetei.ro/</result>
+                        <stepStatus>PASS</stepStatus>
+                        <stepComment></stepComment>
+                        <stepCustomFields></stepCustomFields>
+                    </teststep>
+                
+                    <teststep>
+                        <stepId>8a030290-956a-4f39-bdb8-38d9a91550d1</stepId>
+                        <orderId>2</orderId>
+                        <step>Se apasa pe bara de cautare</step>
+                        <data>N/a</data>
+                        <result>Apare liniuta in bara de cautare care asteapta textul.</result>
+                        <stepStatus>PASS</stepStatus>
+                        <stepComment></stepComment>
+                        <stepCustomFields></stepCustomFields>
+                    </teststep>
+                
+                    <teststep>
+                        <stepId>7f97dc62-d4b5-4c78-93d3-58b094b7a271</stepId>
+                        <orderId>3</orderId>
+                        <step>Se apasa butonul &quot;Enter&quot; sau iconita &quot;Lupa&quot;</step>
+                        <data>N/a</data>
+                        <result>Utilizatorul este redirectionat catre pagina cu produse carora le este asemanator numele cu respectiva cautare.</result>
+                        <stepStatus>PASS</stepStatus>
+                        <stepComment></stepComment>
+                        <stepCustomFields></stepCustomFields>
+                    </teststep>
+                
+                </teststeps>
+            
+        </execution>
+    
+        <execution>
+            <executionId>dd35b941-5d29-413a-9cb4-4e1bca655787</executionId>
+            <cycleName>Testing site</cycleName>
+            <folderName></folderName>
+            <issueKey>PIN-13</issueKey>
+            <testSummary>Adaugarea la favorite</testSummary>
+            <project>Pinzaru Daria TMTA22</project>
+            <versions>Testing Bebe Tei</versions>
+            <components></components>
+            <priority>Highest</priority>
+            <executedBy>IT Factory</executedBy>
+            <executedOn> 08-07-2024 19:30:16</executedOn>
+            <executedStatus>PASS</executedStatus>
+            <executionDefects></executionDefects>
+            <creationDate>08-07-2024 19:28:05</creationDate>
+            <assignedTo></assignedTo>
+            <customFields></customFields>
+            <workFlowStatus></workFlowStatus>
+            <plannedExecutionTime></plannedExecutionTime>
+            
+                <teststeps>
+                
+                    <teststep>
+                        <stepId>208a2158-3677-403b-a20e-862646f9b3f0</stepId>
+                        <orderId>1</orderId>
+                        <step>Se acceseaza site-ul https://comenzi.bebetei.ro/</step>
+                        <data>n/a</data>
+                        <result>Se deschide pagina https://comenzi.bebetei.ro/</result>
+                        <stepStatus>PASS</stepStatus>
+                        <stepComment></stepComment>
+                        <stepCustomFields></stepCustomFields>
+                    </teststep>
+                
+                    <teststep>
+                        <stepId>b8b17ec1-1a5c-449a-baf5-36b030b89813</stepId>
+                        <orderId>2</orderId>
+                        <step>Se apasa pe &quot;Contul meu&quot; si se executa autentificarea</step>
+                        <data>urmeaza pasii de la crearea unui cont</data>
+                        <result>Utilizatorul este in cont si gata sa adauge produse la favorite</result>
+                        <stepStatus>PASS</stepStatus>
+                        <stepComment>if this fails, whole test fails </stepComment>
+                        <stepCustomFields></stepCustomFields>
+                    </teststep>
+                
+                    <teststep>
+                        <stepId>993df7ff-0239-46bc-bc69-bf5a92ea8216</stepId>
+                        <orderId>3</orderId>
+                        <step>Se apasa butonul favorite</step>
+                        <data>n/a</data>
+                        <result>Se deschide pagina goala cu favorite</result>
+                        <stepStatus>PASS</stepStatus>
+                        <stepComment></stepComment>
+                        <stepCustomFields></stepCustomFields>
+                    </teststep>
+                
+                    <teststep>
+                        <stepId>25c99fb7-200a-4651-9749-f954a4bbdeab</stepId>
+                        <orderId>4</orderId>
+                        <step>Se apasa butonul &quot;Adauga lista&quot;</step>
+                        <data>n/a</data>
+                        <result>Se deschide un text box care asteapta un nume</result>
+                        <stepStatus>PASS</stepStatus>
+                        <stepComment></stepComment>
+                        <stepCustomFields></stepCustomFields>
+                    </teststep>
+                
+                    <teststep>
+                        <stepId>cc8abc3a-c750-42fc-92e5-58fd361fced3</stepId>
+                        <orderId>5</orderId>
+                        <step>Se scrie numele listei</step>
+                        <data>n/a</data>
+                        <result>Se primeste un message box cu &quot;Lista a fost creata&quot;</result>
+                        <stepStatus>PASS</stepStatus>
+                        <stepComment></stepComment>
+                        <stepCustomFields></stepCustomFields>
+                    </teststep>
+                
+                    <teststep>
+                        <stepId>23c5cfc2-ace1-4d7f-b207-39367d8e359f</stepId>
+                        <orderId>6</orderId>
+                        <step>Se revine la produsul dorit sau pe pagina principala si se apasa iconita &quot;inima&quot;</step>
+                        <data>n/a</data>
+                        <result>Se deschide o casuta unde trebuie selectata lista unde sa se puna produsul.</result>
+                        <stepStatus>PASS</stepStatus>
+                        <stepComment></stepComment>
+                        <stepCustomFields></stepCustomFields>
+                    </teststep>
+                
+                    <teststep>
+                        <stepId>689f77a1-4fe0-4916-9145-cba64c7e4a14</stepId>
+                        <orderId>7</orderId>
+                        <step>Se selecteaza lista</step>
+                        <data>n/a</data>
+                        <result>Se primeste mesajul &quot;Produsul a fost adaugat in lista de produse favorite.&quot;</result>
+                        <stepStatus>PASS</stepStatus>
+                        <stepComment></stepComment>
+                        <stepCustomFields></stepCustomFields>
+                    </teststep>
+                
+                </teststeps>
+            
+        </execution>
+    
+        <execution>
+            <executionId>04027b2f-c648-4876-8d5b-b206dd42aa66</executionId>
+            <cycleName>Testing site</cycleName>
+            <folderName></folderName>
+            <issueKey>PIN-21</issueKey>
+            <testSummary>Autentificare</testSummary>
+            <project>Pinzaru Daria TMTA22</project>
+            <versions>Testing Bebe Tei</versions>
+            <components></components>
+            <priority>Medium</priority>
+            <executedBy></executedBy>
+            <executedOn> </executedOn>
+            <executedStatus>UNEXECUTED</executedStatus>
+            <executionDefects></executionDefects>
+            <creationDate>08-07-2024 22:41:01</creationDate>
+            <assignedTo></assignedTo>
+            <customFields></customFields>
+            <workFlowStatus></workFlowStatus>
+            <plannedExecutionTime></plannedExecutionTime>
+            
+                <teststeps>
+                
+                    <teststep>
+                        <stepId>6ed1a190-0038-4d67-aa07-75519277d3d6</stepId>
+                        <orderId>1</orderId>
+                        <step>Se acceseaza pagina https://comenzi.bebetei.ro/</step>
+                        <data>n/a</data>
+                        <result>Se deschide pagina https://comenzi.bebetei.ro/</result>
+                        <stepStatus>UNEXECUTED</stepStatus>
+                        <stepComment></stepComment>
+                        <stepCustomFields></stepCustomFields>
+                    </teststep>
+                
+                    <teststep>
+                        <stepId>8fb5b517-bd46-4b90-8a0b-bed3c5d13b37</stepId>
+                        <orderId>2</orderId>
+                        <step>Se apasa butonul Contul meu</step>
+                        <data>n/a</data>
+                        <result>Se deschide pagina de autentificare</result>
+                        <stepStatus>UNEXECUTED</stepStatus>
+                        <stepComment></stepComment>
+                        <stepCustomFields></stepCustomFields>
+                    </teststep>
+                
+                    <teststep>
+                        <stepId>ea95bf86-3d9d-4bae-800c-ac47b20fb6eb</stepId>
+                        <orderId>3</orderId>
+                        <step>Se introduce email-ul si se apasa butonul Continua</step>
+                        <data>n/a</data>
+                        <result>Se deschide o alta fereastra pentru parola</result>
+                        <stepStatus>UNEXECUTED</stepStatus>
+                        <stepComment></stepComment>
+                        <stepCustomFields></stepCustomFields>
+                    </teststep>
+                
+                    <teststep>
+                        <stepId>c31db819-a183-48b6-ada1-bf47574ed95e</stepId>
+                        <orderId>4</orderId>
+                        <step>Se introduce parola si se apasa Conecteaza-te</step>
+                        <data>n/a</data>
+                        <result>Utilizatorul a intrat in cont</result>
+                        <stepStatus>UNEXECUTED</stepStatus>
+                        <stepComment></stepComment>
+                        <stepCustomFields></stepCustomFields>
+                    </teststep>
+                
+                </teststeps>
+            
+        </execution>
+    
+</executions>
